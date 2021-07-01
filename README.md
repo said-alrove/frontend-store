@@ -5,7 +5,7 @@ Second project from Juan Pablo's course of Web Development.
 ![](readme/screenshot.png)
 
 ## What I learnt
-I learnt how to use [the SMACSS methodology](https://itnext.io/css-architecture-with-sass-smacss-and-bem-cc618392c148) for structuring SASS projects (base, modules, layout, theme, state), and this is my first time using it, therefore there should be several mistakes in the way how I decided to order and clasificate the different stylesheets.
+I learnt how to use the [SMACSS methodology](https://itnext.io/css-architecture-with-sass-smacss-and-bem-cc618392c148) for structuring SASS projects (base, modules, layout, theme, state), and this is my first time using it, therefore there should be several mistakes in the way how I decided to order and clasificate the different stylesheets.
 
 First, I wasn't sure about what exactly is "theme", I mean...typography and colors, ok...but code? or variables?, so I chose the second option. In most of the cases I assigned a folder for each topic with the same name as the document, but there is one exception...the theme folder, I decided to call it "members" basically because that's how are known those things in SASS (variables, mixins, extends, etc...), and inside of it I created 2 SASS modules, one of them called "theme" that as you might guess has the color and fonts variables, and the other called "mixins" (I guess there's no need for explications).
 
