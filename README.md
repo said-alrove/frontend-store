@@ -13,7 +13,8 @@ Second, in a course that I was watching, the teacher said that we should separat
 
 Third, the way how I separated the different pages' styles was by adding different comments. On each important component I put a comment as a box (first example below), and when a component was something general (I mean, that I used it more than once because is something needed in each page like the nav or the footer) I created a comment a few different from the box-comments (second example below) to difference them, and for separating the components according to their pages I created a comment alike to the one mentioned before but with the name of the page the components are related to (third example below).
 
-1.- /////////////
+1.- 
+    /////////////
 
     // FOOTER // 
     
