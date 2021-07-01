@@ -23,7 +23,7 @@ Now, I also learnt how to optimize the page load by doing a few things:
 
 3.- Using both formats thanks to the [picture element](https://www.w3schools.com/htmL/html_images_picture.asp) in HTML.
 
-Furthermore I learnt how to change the tab's color by using the meta tag [theme-color](https://webhint.io/docs/user-guide/hints/hint-meta-theme-color/#:~:text=The%20theme-color%20meta%20tag%20provides%20a%20way%20to,highlight%20in%20a%20tab%20bar%20or%20task%20switcher.).
+Furthermore I learnt how to change the tab's color by using the meta tag [theme-color](https://webhint.io/docs/user-guide/hints/hint-meta-theme-color/#:~:text=The%20theme-color%20meta%20tag%20provides%20a%20way%20to,highlight%20in%20a%20tab%20bar%20or%20task%20switcher.) and I found out that the ideal size for Facebook Open Graph images should be 1200x630 according to their own [documentation](https://developers.facebook.com/docs/sharing/webmasters/images), this because that way the definition is perfect for most of the screens.
 
 That'd be everything for this project! :D.
 
