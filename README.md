@@ -16,6 +16,7 @@ Third, the way how I separated the different pages' styles was by adding differe
 ![](readme/comments.png)
 
 Now, I also learnt how to optimize the page load by doing a few things:
+
 1.- Compressing images to make them lighter by using [this page](https://tinypng.com/).
 
 2.- Converting those compressed images (wich could be jpg, png, etc...) into webp images by using [this page](https://imagen.online-convert.com/es/convertir-a-webp).
