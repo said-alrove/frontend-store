@@ -27,6 +27,10 @@ Furthermore I learnt how to change the tab's color by using the meta tag [theme-
 
 That'd be everything for this project! :D.
 
+Update: I added a couple mixins for creating Flexbox and Grid layouts faster (I just have to put the kinda mixin I'll use, either Flexbox or Grid, and specify each variable (I assigned a shorter name for each propertie where was possible, e.g. justify-content > justify) with its value).
+
+If you want to check out those mixins to see how they work, you must go to the members folder and check the mixins file.
+
 ### Lighthouse
 ![](readme/lighthouse.png)
 
