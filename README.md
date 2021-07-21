@@ -1,5 +1,5 @@
 # frontend-store
-Second project from Juan Pablo's course of Web Development.
+The second project from Juan Pablo's course of Web Development.
 
 ## Project's preview
 ![](readme/screenshot.png)
