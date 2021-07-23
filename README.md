@@ -31,6 +31,8 @@ Update: I added a couple mixins for creating Flexbox and Grid layouts faster (I 
 
 If you want to check out those mixins to see how they work, you must go to the members folder and check the mixins file.
 
+And I also tried to get a better lighthouse performance by using lighter image formats as webp and avif instead of jpg or png, that way the charge of the site, in general, is faster (avif still needs a bit more support, it has 67% now, that's the reason I put it as the second option int he fallback). Furthermore, I added the full URL direction to each and every element that needs a source (I've already explained why in the [easy-recipe](https://github.com/said-alrove/easy-recipe) project).
+
 ### Lighthouse
 ![](readme/lighthouse.png)
 
