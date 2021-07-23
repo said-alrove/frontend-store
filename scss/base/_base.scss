@@ -1,0 +1,46 @@
+// *** MEMBERS *** // 
+@use '../members/theme' as thm;
+@use '../members/mixins' as mx;
+
+/////////////
+// STYLES // 
+//////////// 
+html {
+    @include mx.box-model(border-box);
+    font-size: 62.5%;
+}
+
+*, 
+*::before, 
+*::after { @include mx.box-model(inherit); }
+
+body {
+    background-color: thm.$primary-100;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+img { width: 100%; }
+
+h1, h2, h3 {
+    color: thm.$secundary-100;
+    font-family: thm.$main-font;
+    text-align: center;
+}
+
+h1 { font-size: 4rem; }
+
+h2 { font-size: 3.2rem; }
+
+h3 { font-size: 2.4rem; }
+
+p {
+    color: thm.$white;
+    font: 
+    {
+        family: thm.$secundary-font;
+        size: 1.8rem;
+    }
+}
+
+a { text-decoration: none; }

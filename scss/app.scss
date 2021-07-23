@@ -1,0 +1,14 @@
+/////////////
+// SMACSS //   
+//////////// 
+
+// *** FIRST ATTEMPT USING THIS METHODOLOGY *** // 
+
+@use 'base/base';
+
+@use 'layout/layout';
+@use 'layout/layout-styles';
+
+@use 'modules/modules';
+
+@use 'state/state';
