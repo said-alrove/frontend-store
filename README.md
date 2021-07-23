@@ -5,7 +5,7 @@ The second project from Juan Pablo's course of Web Development.
 ![](readme/screenshot.png)
 
 ## What I learned
-I learnt how to use the [SMACSS methodology](https://itnext.io/css-architecture-with-sass-smacss-and-bem-cc618392c148) for structuring SASS projects (base, modules, layout, theme, state), and this is my first time using it, therefore there should be several mistakes in the way how I decided to order and clasificate the different stylesheets.
+I learned how to use the [SMACSS methodology](https://itnext.io/css-architecture-with-sass-smacss-and-bem-cc618392c148) for structuring SASS projects (base, modules, layout, theme, state), and this is my first time using it, therefore there should be several mistakes in the way how I decided to order and clasificate the different stylesheets.
 
 First, I wasn't sure about what exactly is "theme", I mean...typography and colors, ok...but code? or variables?, so I chose the second option. In most of the cases I assigned a folder for each topic with the same name as the document, but there is one exception...the theme folder, I decided to call it "members" basically because that's how are known those things in SASS (variables, mixins, extends, etc...), and inside of it I created 2 SASS modules, one of them called "theme" that as you might guess has the color and fonts variables, and the other called "mixins" (I guess there's no need for explications).
 
@@ -15,7 +15,7 @@ Third, the way how I separated the different pages' styles was by adding differe
 
 ![](readme/comments.png)
 
-Now, I also learnt how to optimize the page load by doing a few things:
+Now, I also learned how to optimize the page load by doing a few things:
 
 1.- Compressing images to make them lighter by using [this page](https://tinypng.com/).
 
@@ -23,7 +23,7 @@ Now, I also learnt how to optimize the page load by doing a few things:
 
 3.- Using both formats thanks to the [picture element](https://www.w3schools.com/htmL/html_images_picture.asp) in HTML.
 
-Furthermore I learnt how to change the tab's color by using the meta tag [theme-color](https://webhint.io/docs/user-guide/hints/hint-meta-theme-color/#:~:text=The%20theme-color%20meta%20tag%20provides%20a%20way%20to,highlight%20in%20a%20tab%20bar%20or%20task%20switcher.) and I found out that the ideal size for Facebook Open Graph images should be 1200x630 according to their own [documentation](https://developers.facebook.com/docs/sharing/webmasters/images), this because that way the definition is perfect for most of the screens.
+Furthermore I learned how to change the tab's color by using the meta tag [theme-color](https://webhint.io/docs/user-guide/hints/hint-meta-theme-color/#:~:text=The%20theme-color%20meta%20tag%20provides%20a%20way%20to,highlight%20in%20a%20tab%20bar%20or%20task%20switcher.) and I found out that the ideal size for Facebook Open Graph images should be 1200x630 according to their own [documentation](https://developers.facebook.com/docs/sharing/webmasters/images), this because that way the definition is perfect for most of the screens.
 
 That'd be everything for this project! :D.
 
